@@ -11,9 +11,9 @@
             <img src="{{ director.imagen }}" alt="Foto de {{ director }}"><br>
             <span class="nombre_director">{{ director }}{% if director.fecha_defuncion %}&dagger;{% endif %}</span>
         </td>
-        {% cycle '' '' '
+        <!-- {% cycle '' '' '
     </tr>
-    <tr>' %}
+    <tr>' %} -->
         {% empty %}
         <td>No hay directores aún</td>
         {% endfor %}
